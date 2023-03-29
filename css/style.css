@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generic css */
+
+a{
+    text-decoration: none;
+    color: rgb(45, 43, 70);
+}
+
+h1{
+    font-size: 2.5rem;
+    color: rgb(45, 43, 70);
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 10px 15px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    color: rgb(45, 43, 70);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-login button{
+    background-color: aqua;
+    transition: 0.4s ease;
+}
+
+.btn-login button:hover{
+    background-color: aquamarine;
+   
+}
+.btn-register button{
+    background-color: rgba(38, 152, 205, 0.879);
+    transition: 0.4s ease;
+}
+.btn-register button:hover{
+    background-color: rgba(15, 15, 172, 0.396);
+}
+
+/* navigation */
+nav{
+    height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 0 10px 0px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+   
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.logo img{
+    width:100% ;
+}
+
+nav .container ul.links{
+    display: flex;
+    
+}
+nav .container ul.links li a{
+    margin-right: 1em;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+nav .container ul.links li a:hover{
+    color: cadetblue;
+    
+}
+
+.social{
+    display: flex;
+    gap: 1em;
+}
+
+/* showcase */
+.showcase{
+    background-image: linear-gradient(rgba(9, 5, 46, 0.3), rgba(5, 4, 46, 0.7)), url('../images/back.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.showcase .container{
+    height: 100%;
+}
+
+.showcase .container .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.showcase .container .showcase-content h1{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+}
+.showcase .container .showcase-content p{
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    margin: 1.3em 0;
+    line-height: 1.3;
+
+}
+
+
+/* features */
+
+.features{
+    text-align: center;
+}
+.features h1{
+    margin-top: 20px ;
+}
+.features p{
+    margin-bottom: 20px;
+    color: rgb(45, 43, 70);
+    font-size: 1.1em;
+}
+
+.features .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+}
+
+.feature{
+    text-align: start;
+    background-color: rgb(45, 43, 70);
+    color: whitesmoke;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.feature i{
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+.feature h3{
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.feature p{
+    color: whitesmoke;
+}
+
+/* Courses */
+
+.courses{
+    text-align: center;
+}
+.courses h1{
+    margin-top: 2em;
+}
+.courses p{
+    margin-bottom: 1.5em;
+}
+.courses .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 10px;
+}
+
+.courses .container .course{
+    height: 400px;
+    text-align: start;
+    position: relative;
+}
+.courses .container .course .price{
+    position: absolute;
+    bottom: 140px;
+    right: 10px;
+    background-color: rgb(45, 43, 70);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+}
+.courses .container .course .course-details .icons i{
+    color: yellow;
+}
+.courses .container .course .course-details .icons .rating{
+    color: lightgray;
+}
+
+.courses .container .course img{
+    height: 60%;
+    width: 100%;
+
+}
