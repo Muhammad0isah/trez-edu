@@ -221,3 +221,89 @@ nav .container ul.links li a:hover{
     width: 100%;
 
 }
+
+/* Registration */
+
+#registration{
+    background-image: linear-gradient(rgba(90,112, 168,0.5), rgba(81,91,233,0.5)), url('../images/signup.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#registration h1{
+    color: #fff;
+}
+
+#registration .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 4.5rem 1rem;
+}
+
+#registration .container .Date{
+    display: flex;
+}
+
+#registration .container .Date .date-col{
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 15px 0 15px 12px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+}
+
+#registration .container form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#registration .container form input{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+#registration .container form h3{
+    color: #333;
+    margin-bottom: 10px;
+}
+#registration .container form button{
+    background-color:yellow ;
+    color: #333;
+    transition: 0.4s ease;
+}
+
+#registration .container form button:hover{
+    background-color: rgb(148, 148, 34);
+    color: #333;
+}
+
+/* experst */
+#experts{
+    padding: 70px 0;
+}
+
+#experts .container{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#experts .container p{
+    margin-bottom: 20px;
+}
+#experts .container .expert{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 20px 0;
+
+}
+
+.social-icons i{
+    border: 1px solid rgba(15, 15, 172, 0.396);
+    padding: 10px;
+}
