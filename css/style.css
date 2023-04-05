@@ -307,3 +307,71 @@ nav .container ul.links li a:hover{
     border: 1px solid rgba(15, 15, 172, 0.396);
     padding: 10px;
 }
+
+/* footer */
+footer{
+    background-color: #101c32;
+    color: #fff;
+    padding: 70px 0;
+}
+
+footer .container{
+    height: 100%;
+}
+
+.row-footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.col-footer h3{
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(241,240,245);
+}
+
+.col-footer li{
+    list-style: none;
+    color:#7b838a;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: 0.7s ease-in;
+}
+
+.col-footer li:hover{
+    color: rgb(241,240,245);
+}
+
+.newletter h3{
+    color: rgb(241,240,245);
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.newletter p{
+    color:#7b838a;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.newletter p:hover{
+    color: rgb(241,240,245);
+}
+.newletter input{
+    padding: 15px;
+    border: 1px solid #101c32;
+    background-color:rgb(45, 43, 70);
+}
+
+.newletter input::placeholder{
+    font-size: 15px;
+    color: #fff;
+}
+.newletter button{
+    background-color: rgb(241,240,245);
+    color: #101c32;
+    border-radius: 0;
+    padding: 15px;
+}
