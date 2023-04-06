@@ -1,0 +1,13 @@
+@media  screen and (max-width: 768px) {
+    nav .container{
+        padding: 20px 10px;
+    }
+    #menu-btn{
+        display: initial;
+    }
+    #menu-close{
+        font-size: 24px;
+        display: none;
+    }
+    
+}
